@@ -4,3 +4,14 @@ The focus of this project would be to compare the Numerical values obtained with
 
 
 The proposed approach, applied in Monte Carlo simulation, is based on the Black-Scholes equation which generally defined the pricing of European call options in a dynamic environment. Therefore, the main goal of this study is how can Monte Carlo and the variance reduction technique be applied to finance?
+
+Steps to run the code:
+
+1. Install any Python IDE, preferrably SPYDER.
+2. Libraries Required
+     numpy 
+     scipy.stats 
+     pandas
+     matplotlib.pyplot
+     time
+3. Install the necessary libraries and run the code
