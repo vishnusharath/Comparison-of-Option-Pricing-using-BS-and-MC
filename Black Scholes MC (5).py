@@ -49,7 +49,7 @@ class OptionPricing:
             stock_price = self.S0*np.exp(self.T*(self.rf - 0.5*self.sigma**2)+ \
                                          self.sigma*np.sqrt(self.T)*rand)
                 
-            if self.Otype == 'C':
+            if self.Otype == 'C': 
                 #Calculate max
                 data[:,1] = stock_price - self.E
     
